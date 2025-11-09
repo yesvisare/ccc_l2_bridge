@@ -10,7 +10,7 @@ This repository contains a **minimal validation/readiness notebook** to verify t
 
 ### 1. Bridge_L3_M8_1_to_M8_2_Readiness.ipynb
 
-A Jupyter notebook with 6 sections:
+A TVH-normalized Jupyter notebook with four-part Learning Arc and 6 validation sections:
 
 1. **Recap** — What M8.1 (Evaluation) shipped
    - Golden Test Set (100+ test cases)
@@ -51,6 +51,18 @@ A Jupyter notebook with 6 sections:
 ### 2. This README
 
 Purpose, how to run, and pass criteria.
+
+---
+
+### TVH Normalization Standards
+
+This notebook follows TVH (The Valuable Human) standards:
+
+- **Four-Part Learning Arc**: Purpose, Concepts Covered, After Completing, Context in Track
+- **Markdown Explainers**: Every code cell has a 1-3 line markdown explainer immediately before it
+- **Offline-Friendly**: All external service calls have skip guards; notebook runs without dependencies
+- **Minimal Outputs**: Only small, illustrative results retained (outputs cleared)
+- **Windows-First**: PowerShell run instructions included for local execution
 
 ## How to Run
 
